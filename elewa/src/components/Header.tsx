@@ -1,16 +1,17 @@
-import Hero from "./Hero";
+import React from "react"; // Import React at the beginning of the file
+import Hero from "./Hero"; // Import the Hero component
 
 const Header = () => {
   return (
-    <section className="mt-12  p-[20px]  " id="header">
-      <header className="z-10 w-full">
-        <div className="flex justify-between items-center ">
+    <section className="mt-12 p-[20px] z-[20] fixed w-full " id="header">
+      <header>
+        <div className="flex justify-between items-center">
           {/* Image logo */}
-          <div className="object-contain ">
-            <img src="" alt="elewa image logo" />
+          <div className="object-contain">
+            <img src="" alt="" />
           </div>
-          <div className="flex items-end  hidden lg:block">
-            <ul className="flex flex-wrap items-end justify-between gap-10 font-primary text-sm text-white">
+          <div className="flex items-end hidden lg:block">
+            <ul className="flex flex-wrap items-end justify-between gap-10 font-primary text-md text-white">
               <li>
                 <a href="/">Home</a>
               </li>
@@ -36,31 +37,34 @@ const Header = () => {
                 <a href="/contact">Contact</a>
               </li>
             </ul>
-          </div>
-          {/* Hamburger Menu */}
 
-          <div
-            className="hidden max-lg:block hover:cursor-pointer"
-            id="hamburger-icon "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
+            {/* Hamburger Menu */}
+            <div
+              className="hidden max-lg:block bg-transparent  hover:cursor-pointer"
+              id="hamburger-icon"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
-              />
-            </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
+                />
+              </svg>
+            </div>
           </div>
         </div>
-        <Hero />
       </header>
+      {/* White background that spans across the page */}
+      <div className="mt-4">
+        <div className="border-t-4 border-white border-[0]"></div>
+      </div>
     </section>
   );
 };

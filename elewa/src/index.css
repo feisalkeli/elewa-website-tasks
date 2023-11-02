@@ -10,14 +10,3 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-#hero,
-#header {
-  /* Set the background image and specify its properties */
-  background-image: url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg");
-  background-size: cover; /* Scale the image to cover the entire container */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent image from repeating */
-  background-attachment: fixed; /* Fixed background for parallax effect */
-  background: ;
-}
