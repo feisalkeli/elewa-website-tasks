@@ -14,6 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<AboutLayout />} />
+          <Route path="/social-impact" element={<AboutLayout />} />
         </Routes>
       </Router>
 

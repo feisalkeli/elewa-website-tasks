@@ -1,11 +1,10 @@
-import React from "react"; // Import React at the beginning of the file
-import Hero from "./About/Hero"; // Import the Hero component
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <section className="mt-12 p-[20px] z-[20] fixed w-full " id="header">
+    <section className="mt-12 p-[20px]  w-full fixed " id="header">
       <header>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-1 justify-between items-center mr-12">
           {/* Image logo */}
           <div className="object-contain">
             <img src="" alt="" />
@@ -61,7 +60,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      {/* White background that spans across the page */}
+      {/* White border that spans across the page */}
       <div className="mt-4">
         <div className="border-t-4 border-white border-[0]"></div>
       </div>

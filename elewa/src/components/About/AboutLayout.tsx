@@ -1,14 +1,17 @@
-import React from "react";
 import Hero from "./Hero";
 import Careers from "./Careers";
 import CooperativeMindsetCard from "./CooperativeMindsetCard";
+import BeyondBusinessCard from "./BeyondBusinessCard";
+import OpenKnowledgeCard from "./OpenKnowledgeCard";
 const AboutLayout = () => {
   return (
-    <div>
+    <section className="w-full">
       <Hero />
       <Careers />
       <CooperativeMindsetCard />
-    </div>
+      <BeyondBusinessCard />
+      <OpenKnowledgeCard />
+    </section>
   );
 };
 

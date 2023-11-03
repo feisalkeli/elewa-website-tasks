@@ -1,15 +1,15 @@
-const ConversationCard = () => {
+const BeyondBusinessCard = () => {
   return (
-    <section className="text-white flex items-center justify-between ml-4 md:ml-[200px] ">
+    <section className="text-white flex items-center justify-between ml-4 md:ml-[200px] mb-[200px] bg-white">
       {/* Card Image */}
       <div className="flex flex-col md:flex-row   justify-between">
         <img
-          src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg"
+          src="https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_400/v1675690301/elewa-group-website/Images/IMG_0764_twyo3k.png"
           alt=""
           className="object-contain rounded-xl "
           style={{ height: "690px" }}
         />
-        <div className="text-white font-primary ml-[300px] mt-10 max-w-[900px]">
+        <div className="text-black font-primary ml-[300px] mt-10 max-w-[900px]">
           <h1 className="text-[30px] md:text-[60px]">
             (Social) business for the win
           </h1>
@@ -25,4 +25,4 @@ const ConversationCard = () => {
   );
 };
 
-export default ConversationCard;
+export default BeyondBusinessCard;

@@ -1,4 +1,6 @@
-const CooperativeMindsetCard = () => {
+import React from "react";
+
+const OpenKnowledgeCard = () => {
   return (
     <section className="text-white flex items-center justify-between mt-40 ml-[30px] sm:ml-[50px] md:ml-[300px] mb-[100px]">
       {/* Card Image */}
@@ -9,17 +11,16 @@ const CooperativeMindsetCard = () => {
               A cooperative mindset
             </h1>
             <p className="mt-10 text-[30px] md:text-[30px] max-w-[400px]   ">
-              Elewa has one shared objective; To unlock the true potential of
-              individuals, teams, and the community. We believe strongly in the
-              power of sharing ideas and continuously strive to grow each other
-              and ourselves. Internally, but also within the larger communities
-              in which we are active.
+              Open knowledge What we learn, we share. Through community events,
+              open knowledge repositories, regular teaching moments (everyone a
+              teacher) and academic partnerships. We build for today, with a
+              lens on tomorrow.
             </p>
           </div>
         </div>
         <div className="ml-[20px] md:ml-[150px] ">
           <img
-            src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg"
+            src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png"
             alt="bufaalo_image"
             className="object-contain rounded-lg ml-1  "
             style={{ height: "690px" }}
@@ -30,4 +31,4 @@ const CooperativeMindsetCard = () => {
   );
 };
 
-export default CooperativeMindsetCard;
+export default OpenKnowledgeCard;
