@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section
-      className="h-[100vh] bg-cover md:bg-center bg-no-repeat    "
+      className="h-[100vh] bg-cover md:bg-center bg-no-repeat  inset-0   "
       id="hero"
       style={{
         backgroundImage: `url("https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg")`,

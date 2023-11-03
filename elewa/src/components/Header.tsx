@@ -1,5 +1,5 @@
 import React from "react"; // Import React at the beginning of the file
-import Hero from "./Hero"; // Import the Hero component
+import Hero from "./About/Hero"; // Import the Hero component
 
 const Header = () => {
   return (
