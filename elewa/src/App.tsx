@@ -6,6 +6,7 @@ import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 import AboutLayout from "./components/SocialImpactPage/AboutLayout";
 import InvestLayout from "./components/InvestPage/InvestLayout";
+import AboutUsLayout1 from "./components/AboutUsPage/AboutUsLayout1";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<AboutLayout />} />
+          <Route path="/about" element={<AboutUsLayout1 />} />
           <Route path="/social-impact" element={<AboutLayout />} />
           <Route path="/invest-page" element={<InvestLayout />} />
         </Routes>

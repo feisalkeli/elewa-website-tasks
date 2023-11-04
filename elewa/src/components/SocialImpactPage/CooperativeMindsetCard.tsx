@@ -8,7 +8,7 @@ const CooperativeMindsetCard = () => {
             <h1 className="text-[30px] md:text-[60px] ">
               A cooperative mindset
             </h1>
-            <p className="mt-10 text-[30px] md:text-[30px] max-w-[400px]   ">
+            <p className="mt-10 text-[30px] md:text-[30px]    ">
               Elewa has one shared objective; To unlock the true potential of
               individuals, teams, and the community. We believe strongly in the
               power of sharing ideas and continuously strive to grow each other

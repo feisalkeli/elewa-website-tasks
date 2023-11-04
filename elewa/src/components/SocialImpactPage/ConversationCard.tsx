@@ -9,7 +9,7 @@ const ConversationCard = () => {
           className="object-contain rounded-xl "
           style={{ height: "690px" }}
         />
-        <div className="text-white font-primary ml-[300px] mt-10 max-w-[900px]">
+        <div className="text-white font-primary ml-[300px] mt-10 ">
           <h1 className="text-[30px] md:text-[60px]">
             (Social) business for the win
           </h1>

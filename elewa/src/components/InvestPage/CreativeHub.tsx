@@ -1,8 +1,8 @@
 const CreativeHub = () => {
   return (
     <section className="w-full p-[80px] md:mb-[120px]">
-      <div className="flex flex-col md:flex-row justify-between ">
-        <div className="font-primary mb-10 md:mt-[70px]   ">
+      <div className="flex flex-col md:flex-row justify-between md:ml-[80px] lg:ml-[120px] ">
+        <div className="font-primary mb-10 md:mt-[70px] xl:gap-3   ">
           <h3 className="text-3xl md:text-[40px] mb-[70px]">
             The Elewa Creative Hub
           </h3>
@@ -20,7 +20,7 @@ const CreativeHub = () => {
             innovation.
           </p>
         </div>
-        <div>
+        <div className="ml-10">
           <img
             src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679983012/elewa-group-website/Images/creative-hub-image_dd6o8o.jpg"
             alt="Nairobi_Skyline"
