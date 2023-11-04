@@ -4,6 +4,7 @@ import HowweSeeItDifferentCard from "./HowweSeeItDifferentCard";
 import InvestingCard from "./InvestingCard";
 import KeyFigures from "./KeyFigures";
 import StakeHolders from "./StakeHolders";
+import MissionCard from "./MissionCard";
 
 const InvestLayout = () => {
   return (
@@ -14,6 +15,7 @@ const InvestLayout = () => {
       <StakeHolders />
       <CreativeHub />
       <InvestingCard />
+      <MissionCard />
     </section>
   );
 };

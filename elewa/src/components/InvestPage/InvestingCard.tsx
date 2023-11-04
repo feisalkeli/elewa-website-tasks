@@ -1,6 +1,6 @@
 const InvestingCard = () => {
   return (
-    <section className="w-full p-[80px]">
+    <section className="w-full p-[80px] mb-[120px]">
       <div className="flex flex-col sm:flex-col lg:flex-row  justify-center">
         <div className="mb-[60px] ">
           <img
