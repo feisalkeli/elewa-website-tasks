@@ -3,7 +3,7 @@ import React from "react";
 const HowweSeeItDifferentCard = () => {
   return (
     <section className="w-full p-[70px]">
-      <div className="flex flex-col md:justify-center md:ml-[90px] lg:ml-[250px]">
+      <div className="flex flex-col md:justify-center  md:ml-[80px] lg:ml-[120px]">
         <div className=" font-primary mb-[70px] flex flex-col justify-start ">
           <h3 className="mb-8 text-5xl lg:text-7xl ">
             How we See It Differently
