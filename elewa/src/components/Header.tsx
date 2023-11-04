@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Header = () => {
   return (
     <section className="mt-12 p-[20px]  w-full fixed " id="header">

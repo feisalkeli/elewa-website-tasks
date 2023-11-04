@@ -1,10 +1,11 @@
 import Hero from "./Hero";
+import HowweSeeItDifferentCard from "./HowweSeeItDifferentCard";
 
 const InvestLayout = () => {
   return (
     <section>
       <Hero />
-      <p>This is the Page</p>
+      <HowweSeeItDifferentCard />
     </section>
   );
 };
