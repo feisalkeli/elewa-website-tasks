@@ -21,7 +21,7 @@ const Header = () => {
                 <a href="/social-impact">Social Impact</a>
               </li>
               <li>
-                <a href="/invest">Invest</a>
+                <a href="/invest-page">Invest</a>
               </li>
               <li>
                 <a href="/venture-labs">Venture Labs</a>
