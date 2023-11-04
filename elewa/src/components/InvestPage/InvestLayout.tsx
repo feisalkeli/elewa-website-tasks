@@ -1,6 +1,9 @@
+import CreativeHub from "./CreativeHub";
 import Hero from "./Hero";
 import HowweSeeItDifferentCard from "./HowweSeeItDifferentCard";
+import InvestingCard from "./InvestingCard";
 import KeyFigures from "./KeyFigures";
+import StakeHolders from "./StakeHolders";
 
 const InvestLayout = () => {
   return (
@@ -8,6 +11,9 @@ const InvestLayout = () => {
       <Hero />
       <HowweSeeItDifferentCard />
       <KeyFigures />
+      <StakeHolders />
+      <CreativeHub />
+      <InvestingCard />
     </section>
   );
 };
