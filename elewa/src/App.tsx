@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-import AboutLayout from "./components/About/AboutLayout";
+import AboutLayout from "./components/SocialImpactPage/AboutLayout";
 import InvestLayout from "./components/InvestPage/InvestLayout";
 
 function App() {
