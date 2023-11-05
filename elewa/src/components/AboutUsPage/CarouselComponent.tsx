@@ -1,9 +1,7 @@
-import React from 'react'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CarouselComponent = () => {
-  return (
-    <div>CarouselComponent</div>
-  )
-}
+  return <section className="text-white mt-[100px]"></section>;
+};
 
-export default CarouselComponent
+export default CarouselComponent;

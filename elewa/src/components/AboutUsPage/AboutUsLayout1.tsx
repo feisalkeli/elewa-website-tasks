@@ -1,5 +1,8 @@
+import CooperativeCard from "./CooperativeCard";
+import CultureandValuesCard from "./CultureandValuesCard";
 import Hero from "./Hero";
 import TeamManagementCard from "./TeamManagementCard";
+import TransparencyCard from "./TransparencyCard";
 import WeCareCard from "./WeCareCard";
 const AboutUsLayout1 = () => {
   return (
@@ -7,6 +10,9 @@ const AboutUsLayout1 = () => {
       <Hero />
       <WeCareCard />
       <TeamManagementCard />
+      <CultureandValuesCard />
+      <CooperativeCard />
+      <TransparencyCard />
     </section>
   );
 };
