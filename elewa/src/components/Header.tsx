@@ -21,18 +21,6 @@ const Header = () => {
               <li>
                 <a href="/invest-page">Invest</a>
               </li>
-              <li>
-                <a href="/venture-labs">Venture Labs</a>
-              </li>
-              <li>
-                <a href="/brands">Brands</a>
-              </li>
-              <li>
-                <a href="/careers">Careers</a>
-              </li>
-              <li>
-                <a href="/contact">Contact</a>
-              </li>
             </ul>
 
             {/* Hamburger Menu */}

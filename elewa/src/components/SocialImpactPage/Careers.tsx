@@ -1,5 +1,4 @@
-import React from "react";
-import ConversationCard from "./ConversationCard";
+import OpenKnowledgeCard from "./OpenKnowledgeCard";
 
 const Careers = () => {
   return (
@@ -31,7 +30,11 @@ const Careers = () => {
           <h3>Investors</h3>
         </div>
       </div>
-
+      <OpenKnowledgeCard
+        title="(Social) business for the win"
+        imageUrl="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg"
+        description="With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive and scalable business. The rest will take care of itself."
+      />
       {/*  */}
     </section>
   );
