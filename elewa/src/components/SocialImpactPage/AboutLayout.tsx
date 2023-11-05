@@ -3,6 +3,7 @@ import Careers from "./Careers";
 import CooperativeMindsetCard from "./CooperativeMindsetCard";
 import BeyondBusinessCard from "./BeyondBusinessCard";
 import OpenKnowledgeCard from "./OpenKnowledgeCard";
+import ImpactProjects from "./ImpactProjects";
 const AboutLayout = () => {
   return (
     <section className="w-full p-0 m-0">
@@ -11,6 +12,7 @@ const AboutLayout = () => {
       <CooperativeMindsetCard />
       <BeyondBusinessCard />
       <OpenKnowledgeCard />
+      <ImpactProjects />
     </section>
   );
 };
