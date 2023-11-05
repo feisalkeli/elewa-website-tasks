@@ -7,7 +7,7 @@ const ImpactProjects = () => {
         <h3 className="text-3xl">Some of our Impact Projects</h3>
       </div>
       <div className="flex justify-center text-center font-primary">
-        <div className="flex flex-shrink justify-center items-center">
+        <div className="flex flex-shrink justify-center items-center gap-6">
           <div>
             <img
               src="https://res.cloudinary.com/dyl3rncv3/image/upload/e_grayscale/v1681380443/elewa-group-website/client-logos/ms-adc_y96dms.jpg"
@@ -81,6 +81,12 @@ const ImpactProjects = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="flex justify-center text-center font-primary mt-[230px] mb-[100px]">
+        <h3 className=" text-[30px]  md:text-[70px] ">
+          Become part of our mission and{" "}
+          <span className="font-bold"> join elewa</span>
+        </h3>
       </div>
     </section>
   );

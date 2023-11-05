@@ -4,11 +4,11 @@ const HowweSeeItDifferentCard = () => {
   return (
     <section className="w-full p-[70px]">
       <div className="flex flex-col justify-center  md:ml-[80px] lg:ml-[120px]">
-        <div className=" font-primary mb-[70px] flex flex-col justify-center sm:text-center ">
+        <div className=" font-primary mb-[70px] flex flex-col justify-center items-center sm:text-center ">
           <h3 className="mb-8 text-5xl lg:text-7xl  ">
             How we See It Differently
           </h3>
-          <p className="text-xl max-w-[500px] md:w-full lg:text-2xl text-center ml-18  sm:ml[200px] md:ml-[70px] lg:ml-[670px] ">
+          <p className="text-xl max-w-[500px] md:w-full lg:text-2xl  ml-18   ">
             The global South is rapidly catching up with the "developed" world.
             It's time for you to get to know the rapid development, innovation
             and drive going on in this part of the world (East-Africa, South
