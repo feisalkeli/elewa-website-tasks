@@ -33,9 +33,6 @@ const Careers = () => {
       </div>
 
       {/*  */}
-      <div className="mt-[90px] p-20">
-        <ConversationCard />
-      </div>
     </section>
   );
 };

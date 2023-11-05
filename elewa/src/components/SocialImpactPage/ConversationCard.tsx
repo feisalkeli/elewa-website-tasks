@@ -2,7 +2,7 @@ const ConversationCard = () => {
   return (
     <section className="text-white flex items-center justify-between ml-4 md:ml-[200px] ">
       {/* Card Image */}
-      <div className="flex flex-col md:flex-row   justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         <img
           src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg"
           alt=""
